@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API documentation</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/bundled/bootstrap.min.css'/>
+<link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/bundled/prettify.css'/>
+<link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/bundled/bootstrap-responsive.min.css'/>
+  <link type='text/css' rel='stylesheet' href='./apidoc/stylesheets/application.css'/>
+  <!-- IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div id='container'>
+        <ul class='breadcrumb'>
+  <li class='active'><a href='./apidoc.html'>TutorialIntereractivoSqlBackend 2</a></li>
+  
+</ul>
+
+<div>
+<p>Another API description</p>
+</div>
+
+<h1 class='page-header'>Resources</h1>
+
+  <h2>
+    <a href='./apidoc/categories.html'>
+      Categories
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/categories/index.html'>GET /api/v2/courses/:course_id/categories</a>
+            </td>
+            <td width='60%'>Get all categories of course</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/certificates.html'>
+      Certificates
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/certificates/index.html'>GET /apiv2/certificates</a>
+            </td>
+            <td width='60%'>Get all certficates from the current_user</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/checkpoints.html'>
+      Checkpoints
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/checkpoints/index.html'>GET /api/v1/checkpoints</a>
+            </td>
+            <td width='60%'>Get all notifications for the current user</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/courses.html'>
+      Courses
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/courses/index.html'>GET /apiv2/courses</a>
+            </td>
+            <td width='60%'>Get all available courses</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/enrollments.html'>
+      Enrollments
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/enrollments/index.html'>GET /api/v2/enrollments</a>
+            </td>
+            <td width='60%'>Get all enrollments for the current user</td>
+          </tr>
+          <tr>
+            <td>
+              <a href='./apidoc/enrollments/create.html'>POST /api/v2/course/:course_id/enrollments</a>
+            </td>
+            <td width='60%'>Create a new enrollment for the current user</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/exercises.html'>
+      Exercises
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/exercises/index.html'>GET /api/v2/courses/:course_id/categories/:category_id/exercises</a>
+            </td>
+            <td width='60%'>Get all exercises of a category</td>
+          </tr>
+          <tr>
+            <td>
+              <a href='./apidoc/exercises/show.html'>GET /api/v2/courses/:course_id/category/:category_id/exercises/:id</a>
+            </td>
+            <td width='60%'>Get all categories</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/notifications.html'>
+      Notifications
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/notifications/index.html'>GET /api/v2/notifications</a>
+            </td>
+            <td width='60%'>Get all notifications for the current user</td>
+          </tr>
+          <tr>
+            <td>
+              <a href='./apidoc/notifications/read.html'>POST /api/v2/notifications/:notification_id/read</a>
+            </td>
+            <td width='60%'>Mark a notification as read</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/passwords.html'>
+      Passwords
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/passwords/create.html'>POST /api/v2/passwords</a>
+            </td>
+            <td width='60%'>Initiate a password reset</td>
+          </tr>
+          <tr>
+            <td>
+              <a href='./apidoc/passwords/update.html'>PUT /api/v2/password_resets</a>
+            </td>
+            <td width='60%'>Update password</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/profiles.html'>
+      Profiles
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/profiles/show.html'>GET /api/v2/profile</a>
+            </td>
+            <td width='60%'>Get user profile</td>
+          </tr>
+          <tr>
+            <td>
+              <a href='./apidoc/profiles/update.html'>PATCH /api/v2/profile</a>
+            </td>
+            <td width='60%'>Patch user profile</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/registrations.html'>
+      Registrations
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/registrations/create.html'>POST /api/v2/signup</a>
+            </td>
+            <td width='60%'>Create a user</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/sessions.html'>
+      Sessions
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/sessions/new.html'>POST /api/v2/login</a>
+            </td>
+            <td width='60%'>Login a user</td>
+          </tr>
+    </tbody>
+  </table>
+  <h2>
+    <a href='./apidoc/user_exercises.html'>
+      User_exercises
+    </a>
+    <br>
+    <small></small>
+  </h2>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Resource</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>
+              <a href='./apidoc/user_exercises/index.html'>GET /api/v2/courses/:course_id/user_exercises</a>
+            </td>
+            <td width='60%'>Get exercise done by logged user</td>
+          </tr>
+          <tr>
+            <td>
+              <a href='./apidoc/user_exercises/create.html'>POST /api/v2/exercises/:exercise_id/user_exercises</a>
+            </td>
+            <td width='60%'>Create a user_exercise</td>
+          </tr>
+    </tbody>
+  </table>
+
+
+        
+      </div>
+    </div>
+    <hr>
+    <footer></footer>
+  </div>
+  <script type='text/javascript' src='./apidoc/javascripts/bundled/jquery.js'></script>
+<script type='text/javascript' src='./apidoc/javascripts/bundled/bootstrap-collapse.js'></script>
+<script type='text/javascript' src='./apidoc/javascripts/bundled/prettify.js'></script>
+<script type='text/javascript' src='./apidoc/javascripts/apipie.js'></script>
+</body>
+</html>
